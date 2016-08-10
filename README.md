@@ -12,3 +12,18 @@ PanoViewer depends on GLEW http://glew.sourceforge.net/ and GLFW http://www.glfw
 Libjpeg is statically included in the code, just put the content of
 jpegsr<x>.zip from the IJG in the "libjpeg" subdirectory before running
 CMake
+
+## Usage ##
+
+drag and rop any .jpg file on the panoviewer window to load the image
+
+mouse: 
+- hold LMB and move : drag screen
+- hold RMB and move : scroll in direction
+
+keyboard:
+- H to toggle on screen help text
+- W,S to rotate view up/down
+- Q,E to de/increase field of view
+- C toggle compatibility render mode (shaders on/off)
+- SPACE toggle on-screen text
