@@ -7,7 +7,7 @@ that exceed the maximum size of a texture on the graphics card.
 
 ## Dependencies ##
 
-PanoViewer depends on GLEW http://glew.sourceforge.net/ and GLFW http://www.glfw.org/ for platform independent OpenGL and libjpeg http://www.ijg.org/ for loading jpg's.
+PanoViewer depends on GLEW http://glew.sourceforge.net/ and GLFW 3 http://www.glfw.org/ for platform independent OpenGL and libjpeg http://www.ijg.org/ for loading jpg's.
 
 Libjpeg is statically included in the code, just put the content of
 jpegsr<x>.zip from the IJG in the "libjpeg" subdirectory before running
