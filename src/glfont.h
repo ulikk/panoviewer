@@ -4,6 +4,7 @@
 // simple OpenGL bitmap font
 //  Ulrich Krispel        uli@krispel.net
 
+#include <string>
 #include <GL/glew.h>
 #include "image.h"
 
